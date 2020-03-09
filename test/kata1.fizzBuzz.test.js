@@ -1,11 +1,13 @@
 const { fizzBuzz } = require("../src");
 
 describe("fizzBuzz", () => {
-  test("returns Fizz when passed a multiple of 3", () => {});
+  it("returns Fizz when passed a multiple of 3", () => {
+    expect(fizzBuzz(3)).toBe('Fizz');
+  });
 
-  test("returns Buzz when passed a multiple of 5", () => {});
+  xit("returns Buzz when passed a multiple of 5", () => {});
 
-  test("returns FizzBuzz when passed a multiple 3 and 5", () => {});
+  xit("returns FizzBuzz when passed a multiple 3 and 5", () => {});
 
-  test("returns the number when it isn't a multiple of 3 or 5", () => {});
+  xit("returns the number when it isn't a multiple of 3 or 5", () => {});
 });
