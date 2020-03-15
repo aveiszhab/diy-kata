@@ -1,7 +1,8 @@
 const numberToReversedDigits = number => {
   return number
     .toString()
-    .split("").reverse()
+    .split("")
+    .reverse()
     .map(a => Number(a));
 };
 
