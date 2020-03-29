@@ -5,14 +5,17 @@ describe("joinNames", () => {
     expect(
       joinNames([{ name: "Bart" }, { name: "Lisa" }, { name: "Maggie" }])
     ).toEqual("Bart, Lisa & Maggie");
+    expect(joinNames([{ name: "Bart" }, { name: "Lisa" }])).toEqual(
+      "Bart & Lisa"
+    );
     expect(
-      joinNames([{ name: "Bart" }, { name: "Lisa" }])
-    ).toEqual("Bart & Lisa");
-    expect(
-      joinNames([{ name: "Bart" }, { name: "Lisa" }, { name: "Anna" }, { name: "Maggie" }])
+      joinNames([
+        { name: "Bart" },
+        { name: "Lisa" },
+        { name: "Anna" },
+        { name: "Maggie" }
+      ])
     ).toEqual("Bart, Lisa, Anna & Maggie");
-    expect(
-      joinNames([{ name: "Bart" }])
-    ).toEqual("Bart");
+    expect(joinNames([{ name: "Bart" }])).toEqual("Bart");
   });
 });

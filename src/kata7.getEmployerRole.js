@@ -1,5 +1,5 @@
-const getEmployerRole = (employeeName, employees) => {
-  employees = [
+const getEmployerRole = employeeName => {
+  const employees = [
     {
       name: "Satti",
       role: "Developer"
