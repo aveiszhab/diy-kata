@@ -1,3 +1,16 @@
+This is a course project part of the Manchester Codes curriculum. The project was built on Manchester Codes repository as per the below instructions.
+
+# Concepts
+* Test-Driven Development
+
+* Unit Testing
+
+* Jest
+
+* Refactoring
+
+* DRY - Don't Repeat Yourself
+
 # DIY Kata
 
 This repository is aimed at helping you get to grips with the basics of testing in JavaScript.
